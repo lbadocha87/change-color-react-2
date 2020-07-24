@@ -10,6 +10,9 @@ const ButtonsPanel = (props) => {
           <button onClick={()=>props.changeColorHeandler('red')}>Red</button>
           <button onClick={()=>props.changeColorHeandler('green')}>Green</button>
           <button onClick={()=>props.changeColorHeandler('blue')}>Blue</button>
+
+          <input placeholder="set heading text" onChange={(e)=>props.changeTextHeandler(e)}/>
+
         </div>
     )
 }
